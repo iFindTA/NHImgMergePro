@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60EF65EC1BC8C5690035F1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF65EB1BC8C5690035F1F5 /* main.m */; };
+		60EF65EF1BC8C5690035F1F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF65EE1BC8C5690035F1F5 /* AppDelegate.m */; };
+		60EF65F21BC8C5690035F1F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF65F11BC8C5690035F1F5 /* ViewController.m */; };
+		60EF65F51BC8C5690035F1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EF65F31BC8C5690035F1F5 /* Main.storyboard */; };
+		60EF65F71BC8C5690035F1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EF65F61BC8C5690035F1F5 /* Assets.xcassets */; };
+		60EF65FA1BC8C5690035F1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EF65F81BC8C5690035F1F5 /* LaunchScreen.storyboard */; };
+		60EF66051BC8C5690035F1F5 /* NHImgMergeProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF66041BC8C5690035F1F5 /* NHImgMergeProTests.m */; };
+		60EF66101BC8C5690035F1F5 /* NHImgMergeProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF660F1BC8C5690035F1F5 /* NHImgMergeProUITests.m */; };
+		60EF661F1BC8C5910035F1F5 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF661E1BC8C5910035F1F5 /* UIImage+Helper.m */; settings = {ASSET_TAGS = (); }; };
+		60EF66211BC8D5CF0035F1F5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EF66201BC8D5CF0035F1F5 /* icon.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60EF66011BC8C5690035F1F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EF65DF1BC8C5690035F1F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EF65E61BC8C5690035F1F5;
+			remoteInfo = NHImgMergePro;
+		};
+		60EF660C1BC8C5690035F1F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EF65DF1BC8C5690035F1F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EF65E61BC8C5690035F1F5;
+			remoteInfo = NHImgMergePro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60EF65E71BC8C5690035F1F5 /* NHImgMergePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHImgMergePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EF65EB1BC8C5690035F1F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60EF65ED1BC8C5690035F1F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60EF65EE1BC8C5690035F1F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60EF65F01BC8C5690035F1F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60EF65F11BC8C5690035F1F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60EF65F41BC8C5690035F1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60EF65F61BC8C5690035F1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60EF65F91BC8C5690035F1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60EF65FB1BC8C5690035F1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EF66001BC8C5690035F1F5 /* NHImgMergeProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHImgMergeProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EF66041BC8C5690035F1F5 /* NHImgMergeProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHImgMergeProTests.m; sourceTree = "<group>"; };
+		60EF66061BC8C5690035F1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EF660B1BC8C5690035F1F5 /* NHImgMergeProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHImgMergeProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EF660F1BC8C5690035F1F5 /* NHImgMergeProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHImgMergeProUITests.m; sourceTree = "<group>"; };
+		60EF66111BC8C5690035F1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EF661D1BC8C5910035F1F5 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		60EF661E1BC8C5910035F1F5 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		60EF66201BC8D5CF0035F1F5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EF65E41BC8C5690035F1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF65FD1BC8C5690035F1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF66081BC8C5690035F1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EF65DE1BC8C5690035F1F5 = {
+			isa = PBXGroup;
+			children = (
+				60EF65E91BC8C5690035F1F5 /* NHImgMergePro */,
+				60EF66031BC8C5690035F1F5 /* NHImgMergeProTests */,
+				60EF660E1BC8C5690035F1F5 /* NHImgMergeProUITests */,
+				60EF65E81BC8C5690035F1F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EF65E81BC8C5690035F1F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EF65E71BC8C5690035F1F5 /* NHImgMergePro.app */,
+				60EF66001BC8C5690035F1F5 /* NHImgMergeProTests.xctest */,
+				60EF660B1BC8C5690035F1F5 /* NHImgMergeProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60EF65E91BC8C5690035F1F5 /* NHImgMergePro */ = {
+			isa = PBXGroup;
+			children = (
+				60EF65ED1BC8C5690035F1F5 /* AppDelegate.h */,
+				60EF65EE1BC8C5690035F1F5 /* AppDelegate.m */,
+				60EF65F01BC8C5690035F1F5 /* ViewController.h */,
+				60EF65F11BC8C5690035F1F5 /* ViewController.m */,
+				60EF661D1BC8C5910035F1F5 /* UIImage+Helper.h */,
+				60EF661E1BC8C5910035F1F5 /* UIImage+Helper.m */,
+				60EF65F31BC8C5690035F1F5 /* Main.storyboard */,
+				60EF65F61BC8C5690035F1F5 /* Assets.xcassets */,
+				60EF65F81BC8C5690035F1F5 /* LaunchScreen.storyboard */,
+				60EF65FB1BC8C5690035F1F5 /* Info.plist */,
+				60EF65EA1BC8C5690035F1F5 /* Supporting Files */,
+			);
+			path = NHImgMergePro;
+			sourceTree = "<group>";
+		};
+		60EF65EA1BC8C5690035F1F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60EF66201BC8D5CF0035F1F5 /* icon.png */,
+				60EF65EB1BC8C5690035F1F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60EF66031BC8C5690035F1F5 /* NHImgMergeProTests */ = {
+			isa = PBXGroup;
+			children = (
+				60EF66041BC8C5690035F1F5 /* NHImgMergeProTests.m */,
+				60EF66061BC8C5690035F1F5 /* Info.plist */,
+			);
+			path = NHImgMergeProTests;
+			sourceTree = "<group>";
+		};
+		60EF660E1BC8C5690035F1F5 /* NHImgMergeProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60EF660F1BC8C5690035F1F5 /* NHImgMergeProUITests.m */,
+				60EF66111BC8C5690035F1F5 /* Info.plist */,
+			);
+			path = NHImgMergeProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60EF65E61BC8C5690035F1F5 /* NHImgMergePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EF66141BC8C5690035F1F5 /* Build configuration list for PBXNativeTarget "NHImgMergePro" */;
+			buildPhases = (
+				60EF65E31BC8C5690035F1F5 /* Sources */,
+				60EF65E41BC8C5690035F1F5 /* Frameworks */,
+				60EF65E51BC8C5690035F1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHImgMergePro;
+			productName = NHImgMergePro;
+			productReference = 60EF65E71BC8C5690035F1F5 /* NHImgMergePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60EF65FF1BC8C5690035F1F5 /* NHImgMergeProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EF66171BC8C5690035F1F5 /* Build configuration list for PBXNativeTarget "NHImgMergeProTests" */;
+			buildPhases = (
+				60EF65FC1BC8C5690035F1F5 /* Sources */,
+				60EF65FD1BC8C5690035F1F5 /* Frameworks */,
+				60EF65FE1BC8C5690035F1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EF66021BC8C5690035F1F5 /* PBXTargetDependency */,
+			);
+			name = NHImgMergeProTests;
+			productName = NHImgMergeProTests;
+			productReference = 60EF66001BC8C5690035F1F5 /* NHImgMergeProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60EF660A1BC8C5690035F1F5 /* NHImgMergeProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EF661A1BC8C5690035F1F5 /* Build configuration list for PBXNativeTarget "NHImgMergeProUITests" */;
+			buildPhases = (
+				60EF66071BC8C5690035F1F5 /* Sources */,
+				60EF66081BC8C5690035F1F5 /* Frameworks */,
+				60EF66091BC8C5690035F1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EF660D1BC8C5690035F1F5 /* PBXTargetDependency */,
+			);
+			name = NHImgMergeProUITests;
+			productName = NHImgMergeProUITests;
+			productReference = 60EF660B1BC8C5690035F1F5 /* NHImgMergeProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60EF65DF1BC8C5690035F1F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "hu jiaju";
+				TargetAttributes = {
+					60EF65E61BC8C5690035F1F5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					60EF65FF1BC8C5690035F1F5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 60EF65E61BC8C5690035F1F5;
+					};
+					60EF660A1BC8C5690035F1F5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 60EF65E61BC8C5690035F1F5;
+					};
+				};
+			};
+			buildConfigurationList = 60EF65E21BC8C5690035F1F5 /* Build configuration list for PBXProject "NHImgMergePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60EF65DE1BC8C5690035F1F5;
+			productRefGroup = 60EF65E81BC8C5690035F1F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60EF65E61BC8C5690035F1F5 /* NHImgMergePro */,
+				60EF65FF1BC8C5690035F1F5 /* NHImgMergeProTests */,
+				60EF660A1BC8C5690035F1F5 /* NHImgMergeProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EF65E51BC8C5690035F1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EF66211BC8D5CF0035F1F5 /* icon.png in Resources */,
+				60EF65FA1BC8C5690035F1F5 /* LaunchScreen.storyboard in Resources */,
+				60EF65F71BC8C5690035F1F5 /* Assets.xcassets in Resources */,
+				60EF65F51BC8C5690035F1F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF65FE1BC8C5690035F1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF66091BC8C5690035F1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EF65E31BC8C5690035F1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EF65F21BC8C5690035F1F5 /* ViewController.m in Sources */,
+				60EF65EF1BC8C5690035F1F5 /* AppDelegate.m in Sources */,
+				60EF65EC1BC8C5690035F1F5 /* main.m in Sources */,
+				60EF661F1BC8C5910035F1F5 /* UIImage+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF65FC1BC8C5690035F1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EF66051BC8C5690035F1F5 /* NHImgMergeProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF66071BC8C5690035F1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EF66101BC8C5690035F1F5 /* NHImgMergeProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EF66021BC8C5690035F1F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EF65E61BC8C5690035F1F5 /* NHImgMergePro */;
+			targetProxy = 60EF66011BC8C5690035F1F5 /* PBXContainerItemProxy */;
+		};
+		60EF660D1BC8C5690035F1F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EF65E61BC8C5690035F1F5 /* NHImgMergePro */;
+			targetProxy = 60EF660C1BC8C5690035F1F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60EF65F31BC8C5690035F1F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EF65F41BC8C5690035F1F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60EF65F81BC8C5690035F1F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EF65F91BC8C5690035F1F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60EF66121BC8C5690035F1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60EF66131BC8C5690035F1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60EF66151BC8C5690035F1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHImgMergePro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHImgMergePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60EF66161BC8C5690035F1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHImgMergePro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHImgMergePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60EF66181BC8C5690035F1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NHImgMergeProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHImgMergeProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHImgMergePro.app/NHImgMergePro";
+			};
+			name = Debug;
+		};
+		60EF66191BC8C5690035F1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NHImgMergeProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHImgMergeProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHImgMergePro.app/NHImgMergePro";
+			};
+			name = Release;
+		};
+		60EF661B1BC8C5690035F1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NHImgMergeProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHImgMergeProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NHImgMergePro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60EF661C1BC8C5690035F1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NHImgMergeProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHImgMergeProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NHImgMergePro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EF65E21BC8C5690035F1F5 /* Build configuration list for PBXProject "NHImgMergePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EF66121BC8C5690035F1F5 /* Debug */,
+				60EF66131BC8C5690035F1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EF66141BC8C5690035F1F5 /* Build configuration list for PBXNativeTarget "NHImgMergePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EF66151BC8C5690035F1F5 /* Debug */,
+				60EF66161BC8C5690035F1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60EF66171BC8C5690035F1F5 /* Build configuration list for PBXNativeTarget "NHImgMergeProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EF66181BC8C5690035F1F5 /* Debug */,
+				60EF66191BC8C5690035F1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60EF661A1BC8C5690035F1F5 /* Build configuration list for PBXNativeTarget "NHImgMergeProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EF661B1BC8C5690035F1F5 /* Debug */,
+				60EF661C1BC8C5690035F1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60EF65DF1BC8C5690035F1F5 /* Project object */;
+}
